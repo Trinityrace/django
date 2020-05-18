@@ -15,10 +15,13 @@
     <title>django</title>
   </head>
   <body class="body" style="background-color: #f0c7aa;">
-    <div>
-      {% block content %} {% endblock %}
-    </div>
 
+      <div class="">
+        {% block content %}
+          {% include 'port/navbar.html'%}
+          {% include 'port/bb.html'%} 
+        {% endblock %}
+      </div>
     <!-- JS, Popper.js, and jQuery -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

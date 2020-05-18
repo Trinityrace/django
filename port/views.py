@@ -3,4 +3,4 @@ from django.shortcuts import render
 # Create your views here.
 
 def index(request):
-  return render(request, 'port/navbar.html')
+  return render(request, 'port/home.html')
