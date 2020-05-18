@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^helloapp/', include('helloapp.urls')),
     url(r'^$', include('port.urls')),
+    url(r'^books/', include('books.urls')),
 ]
